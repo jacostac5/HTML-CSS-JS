@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  color: red;
+  background-color: darkmagenta;
+  margin: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 10px solid black;
+  /* width: 300px;
+  height: 150px; */
+  font-size: 40px;
+}
+#cabecera3 {
+  color: royalblue;
+}
+.text-coral {
+  color: coral;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+p {
+  margin: 10px;
+  font-size: 20px;
+}
+.text-danger {
+  color: red;
+  font-style: italic;
+}
+.header {
+  background-color: red;
+  float: left;
+  height: 40px;
+  width: 100%;
+}
+.sidebar {
+  float: left;
+  width: 25%;
+  height: 400px;
+  background-color: khaki;
+}
+.content {
+  float: left;
+  width: 75%;
+  height: 400px;
+  background-color: lightblue;
+}
+.footer {
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color: lightslategray;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin: 5px;
+  float: left;
+}
