@@ -1,22 +1,19 @@
 :root {
   --theme-color: white;
-  --primary-color: #124f88;
-  --secundary-color: #3a3a3a;
+  --primary-color: rgb(18, 83, 136);
+  --secundary-color: #2c2c2c;
   --text-color-inverse: white;
   --text-color: black;
   --navbar-shallow-color: #e5e5e5;
-  --navbar-background-color: #124f88;
-  --menu-mobile-background-color: #3A4460;
+  --navbar-background-color: rgb(18, 83, 136);
+  --menu-mobile-background-color: rgb(18, 83, 136);
 }
-
-html {
+html{
   scroll-behavior: smooth;
 }
-
-section[id] {
-scroll-margin-top: 70px;
+section[id]{
+  scroll-margin-top: 70px;
 }
-
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--theme-color);
@@ -27,6 +24,9 @@ body {
 a {
   text-decoration: none;
   color: var(--text-color);
+}
+li{
+  list-style: none;
 }
 
 .horizontal-padding {

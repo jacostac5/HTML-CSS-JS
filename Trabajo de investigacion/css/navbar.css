@@ -23,17 +23,21 @@
   align-items: center;
   font-size: 18px;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--text-color);
+  border-radius: 15px;
+  background-color: var(--theme-color);
+  padding: 0.1em 0.3em;
+  transition: 1s ease-in-out;
 }
 
 .logo img {
   border-radius: 50%;
 }
 
-/* Menu de la barra */
+/* Menu */
 .menu {
   display: flex;
-  list-style: none; /* quita los puntos */
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -88,7 +92,7 @@
 }
 
 @media (max-width: 950px) {
-  /* Menu de barra en dispositivo mobil */
+  /* Menu */
   .menu {
     flex-direction: column;
     position: fixed;
@@ -96,9 +100,9 @@
     top: 0;
     width: 100%;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: var(--menu-mobile-background-color);
     height: 100%;
-    overflow-y: auto; /* cuando el idspositivo es super pequeño esto aparece un barra*/
+    overflow-y: auto;
 
     opacity: 0;
     pointer-events: none;

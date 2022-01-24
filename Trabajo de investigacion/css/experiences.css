@@ -8,15 +8,15 @@
   color: var(--text-color-inverse);
 }
 
-.wave { /* ancho del contenido */
+.wave {
   width: 100%;
   position: relative;
-  top: 2px; /* bajar la imagen */
+  top: 2px;
 }
 
 .wave_bottom {
-  transform: scaleY(-1); /* Invertir */
-  top: -2px; /* subir la imagen */
+  transform: scaleY(-1);
+  top: -2px;
 }
 
 .experiences-title {
@@ -28,6 +28,11 @@
 }
 
 .experience-date {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--secundary-color);
+}
+.experience-cert {
   font-size: 25px;
   font-weight: bold;
   color: var(--secundary-color);
@@ -53,7 +58,7 @@
 
 .experience {
   padding: 25px;
-  max-width: 500px; /* texto mas legible */
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -64,6 +69,10 @@
   }
 
   .experience-date {
+    font-size: 40px;
+  }
+
+.experience-cert {
     font-size: 40px;
   }
 
@@ -88,7 +97,7 @@
   }
 
   .experience_left {
-    text-align: right; /*palabras alineados a la derecha*/
+    text-align: right;
   }
 
   .experiences-grid {
@@ -96,7 +105,7 @@
     grid-template-columns: auto 2px auto;
     gap: 20px 70px;
     padding: 70px;
-    justify-content: center; /* todo el contenido centrado */
+    justify-content: center;
     max-width: 980px;
     margin: 0 auto;
   }
@@ -105,23 +114,23 @@
     background-color: var(--text-color-inverse);
     position: relative;
   }
-/* seudo elemento */
+
   .line::before,
   .line::after {
-    content: ""; /*Siempre debe tener un contenido*/
+    content: "";
     display: block;
     width: 20px;
     height: 20px;
     background-color: var(--text-color-inverse);
     border-radius: 50%;
 
-    position: absolute; /* Pocicionar circulos al inicio y final*/
+    position: absolute;
     top: -20px;
     left: -9px;
   }
 
   .line::after {
     top: 100%;
-    z-index: 1; /* poner en primera la linea*/
+    z-index: 1;
   }
 }
